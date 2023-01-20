@@ -1,0 +1,19 @@
+body {
+    overflow: hidden;
+}
+.gradient-background {
+    background-image: url(/content/background.jpg);
+
+  }
+
+  .glossy-element {
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 100rem;
+    height: 50rem;
+    background-color: rgba(102,0,102, 0.5); /* purple color with 50% opacity*/
+    background-image: linear-gradient(to top, rgba(127, 10, 109, 0.7), rgba(255, 255, 255, 0)); /* white gradient */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* add a shadow */
+    /* Other styling, such as width and height */}
+ 
