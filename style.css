@@ -1,4 +1,5 @@
 body {
+  font-family:  'Open Sans', sans-serif;
     overflow: hidden;
 }
 .gradient-background {
@@ -16,4 +17,15 @@ body {
     background-image: linear-gradient(to top, rgba(127, 10, 109, 0.7), rgba(255, 255, 255, 0)); /* white gradient */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* add a shadow */
     /* Other styling, such as width and height */}
+
+li {  margin-top: 10px;
+  margin-bottom: 10px;
+      border-top: 0.5px solid #fff;
+      padding: 10px;
+      font-size: 18px;
+      list-style-type: none;
+    }
+#crypto-list {
+  margin: 5rem;
+}
  
